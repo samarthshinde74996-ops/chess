@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Samarth Chess</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="chess.js" defer></script>
+</head>
+<body>
+    <div class="anime-bg"></div>
+    <div class="container">
+        <header>
+            <h1>SAMARTH <span>CHESS</span></h1>
+        </header>
+
+        <main class="game-area">
+            <div id="board-container">
+                <div id="chess-board"></div>
+            </div>
+
+            <div class="side-panel">
+                <div class="status-box">
+                    <p id="turn-indicator">White's Turn</p>
+                    <p id="game-status"></p>
+                </div>
+
+                <div class="move-log">
+                    <h3>Move History</h3>
+                    <div id="log-content"></div>
+                </div>
+
+                <div class="controls">
+                    <button id="undo-btn">Undo</button>
+                    <button id="flip-btn">Flip Board</button>
+                    <button id="reset-btn">New Game</button>
+                </div>
+            </div>
+        </main>
+    </div>
+</body>
+</html>
